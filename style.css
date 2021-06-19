@@ -1,0 +1,65 @@
+
+    body {
+background-image: url("backg3.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+color:black;
+
+}
+    .slider {
+      -webkit-appearance: none;
+      width:1200px;
+      height: 60px;
+      background: #fff;
+      outline: none;
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+
+.slider:hover {
+opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 60px;
+height: 85px;
+background:#ca8ccc	;
+cursor: pointer;
+}
+
+
+div {
+position:absolute;
+top: 25%;
+left:1500px;
+font-size: 100px;
+}
+.button{
+width: 300;
+height: 120px;
+border: 1px solid #ca8ccc;
+padding:15px;
+color:black;
+background: #fff;
+border-radius: 5px;
+font-size: 65px;
+}
+.button:hover{
+background: #d5a3d6;
+
+}
+
+div.b{
+position:absolute;
+top:670px ;
+left: 1930px;
+
+}
+span{
+color:black; 
+font-size: 85px;
+}
