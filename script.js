@@ -1,4 +1,4 @@
-<script>
+
     var slider = document.getElementById("Range");
     var output = document.getElementById("S1");
     output.innerHTML = slider.value; 
@@ -35,4 +35,4 @@
     slider6.oninput = function() {
       output6.innerHTML = this.value
     }
-    </script>
+   
