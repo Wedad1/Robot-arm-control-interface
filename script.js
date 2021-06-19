@@ -1,38 +1,37 @@
-
-    var slider = document.getElementById("Range");
-    var output = document.getElementById("S1");
-    output.innerHTML = slider.value; 
-    slider.oninput = function() {
-      output.innerHTML = this.value
+var sl = document.getElementById("Range");
+    var op = document.getElementById("S1");
+    op.innerHTML = sl.value; 
+    sl.oninput = function() {
+      op.innerHTML = this.value
     }
-    var slider2 = document.getElementById("Range2");
-    var output2 = document.getElementById("S2");
-    output2.innerHTML = slider2.value; 
-    slider2.oninput = function() {
-      output2.innerHTML = this.value
+    var sl2 = document.getElementById("Range2");
+    var op2 = document.getElementById("S2");
+    op2.innerHTML = sl2.value; 
+    sl2.oninput = function() {
+      op2.innerHTML = this.value
     }
-    var slider3 = document.getElementById("Range3");
-    var output3 = document.getElementById("S3");
-    output3.innerHTML = slider3.value; 
-    slider3.oninput = function() {
-      output3.innerHTML = this.value
+    var sl3 = document.getElementById("Range3");
+    var op3 = document.getElementById("S3");
+    op3.innerHTML = sl3.value; 
+    sl3.oninput = function() {
+      op3.innerHTML = this.value
     }
-    var slider4 = document.getElementById("Range4");
-    var output4 = document.getElementById("S4");
-    output4.innerHTML = slider4.value; 
-    slider4.oninput = function() {
-      output4.innerHTML = this.value
+    var sl4 = document.getElementById("Range4");
+    var op4 = document.getElementById("S4");
+    op4.innerHTML = sl4.value; 
+    sl4.oninput = function() {
+      op4.innerHTML = this.value
     }
-    var slider5 = document.getElementById("Range5");
-    var output5 = document.getElementById("S5");
-    output5.innerHTML = slider5.value; 
-    slider5.oninput = function() {
-      output5.innerHTML = this.value
+    var sl5 = document.getElementById("Range5");
+    var op5 = document.getElementById("S5");
+    op5.innerHTML = sl5.value; 
+    sl5.oninput = function() {
+      op5.innerHTML = this.value
     }
-    var slider6 = document.getElementById("Range6");
-    var output6 = document.getElementById("S6");
-    output6.innerHTML = slider6.value; 
-    slider6.oninput = function() {
-      output6.innerHTML = this.value
+    var sl6 = document.getElementById("Range6");
+    var op6 = document.getElementById("S6");
+    op6.innerHTML = sl6.value; 
+    sl6.oninput = function() {
+      op6.innerHTML = this.value
     }
-   
+    
