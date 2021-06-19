@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Robot arm control interface</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form  action="connect1.php" method="POST">
+    <div>
+    <p >Motor1 <input type="range" min="0" max="180" value="0" class="slider" id="Range" name="M1"> <span id="S1"></span></p>
+    <p >Motor2 <input type="range" min="0" max="180" value="0" class="slider" id="Range2" name="M2"> <span id="S2"></span> </p>
+    <p >Motor3 <input type="range" min="0" max="180"  value="0" class="slider"id="Range3" name="M3"> <span id="S3"></span> </p>
+    <p >Motor4 <input type="range" min="0" max="180" value="0" class="slider"id="Range4" name="M4"> <span id="S4"></span> </p>
+    <p >Motor5 <input type="range" min="0" max="180" value="0" class="slider"id="Range5" name="M5"> <span id="S5"></span> </p>
+    <p >Motor6 <input type="range" min="0" max="180" value="0" class="slider"id="Range6" name="M6"> <span id="S6"></span> </p>
+    <div class="b"><input type="submit" class="button" value="Save" name="save"><br><br>
+      <input type="submit" class="button" value="ON" name="on"></div>
+</div>
+</form>
+<script>
+  var slider = document.getElementById("Range");
+  var output = document.getElementById("S1");
+  output.innerHTML = slider.value; 
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  var slider2 = document.getElementById("Range2");
+  var output2 = document.getElementById("S2");
+  output2.innerHTML = slider2.value; 
+  slider2.oninput = function() {
+    output2.innerHTML = this.value;
+  }
+  var slider3 = document.getElementById("Range3");
+  var output3 = document.getElementById("S3");
+  output3.innerHTML = slider3.value; 
+  slider3.oninput = function() {
+    output3.innerHTML = this.value;
+  }
+  var slider4 = document.getElementById("Range4");
+  var output4 = document.getElementById("S4");
+  output4.innerHTML = slider4.value; 
+  slider4.oninput = function() {
+    output4.innerHTML = this.value;
+  }
+  var slider5 = document.getElementById("Range5");
+  var output5 = document.getElementById("S5");
+  output5.innerHTML = slider5.value; 
+  slider5.oninput = function() {
+    output5.innerHTML = this.value;
+  }
+  var slider6 = document.getElementById("Range6");
+  var output6 = document.getElementById("S6");
+  output6.innerHTML = slider6.value; 
+  slider6.oninput = function() {
+    output6.innerHTML = this.value;
+  }
+  </script>
+  
+</body>
+</html>
